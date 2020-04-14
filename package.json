@@ -1,0 +1,31 @@
+{
+  "name": "google-fonts-json",
+  "version": "1.0.0",
+  "description": "Self-updating Google Fonts repository with preview texts",
+  "main": "index.js",
+  "scripts": {
+    "local": "./node_modules/.bin/wdio local.conf.js",
+    "bs": "./node_modules/.bin/wdio bs.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyBogdanov/google-fonts-json.git"
+  },
+  "author": "Tony Bogdanov <support@tonybogdanov.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TonyBogdanov/google-fonts-json/issues"
+  },
+  "homepage": "https://github.com/TonyBogdanov/google-fonts-json#readme",
+  "dependencies": {
+    "@wdio/cli": "^6.0.15"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.0.15",
+    "@wdio/mocha-framework": "^6.0.15",
+    "@wdio/spec-reporter": "^6.0.14",
+    "@wdio/sync": "^6.0.15",
+    "chromedriver": "^81.0.0",
+    "wdio-chromedriver-service": "^6.0.1"
+  }
+}

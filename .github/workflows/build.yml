@@ -1,0 +1,66 @@
+name: build
+
+on:
+    schedule:
+        - cron: '1 0 * * *'
+    push:
+        branches:
+            - master
+
+jobs:
+    delete-artifacts:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: kolpav/purge-artifacts-action@v1
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  expire-in: 10 minutes
+
+    build:
+        needs: [ delete-artifacts ]
+        runs-on: ubuntu-latest
+
+        name: build
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v1
+
+            - name: Install dependencies
+              run: npm i
+
+            - name: Scrape
+              run: npm run bs
+              env:
+                  BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+                  BROWSERSTACK_ACC_KEY: ${{ secrets.BROWSERSTACK_ACC_KEY }}
+                  GFONTS_API_KEY: ${{ secrets.GFONTS_API_KEY }}
+
+            - name: Upload artifacts
+              uses: actions/upload-artifact@v1
+              with:
+                  name: data
+                  path: data
+
+    gh-pages:
+        needs: [ build ]
+        runs-on: ubuntu-latest
+
+        name: gh-pages
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v1
+
+            - name: Download artifacts
+              uses: actions/download-artifact@v1
+              with:
+                  name: data
+
+            - name: Publish
+              uses: JamesIves/github-pages-deploy-action@releases/v3
+              with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  BRANCH: gh-pages
+                  FOLDER: data
+                  DEBUG: true
