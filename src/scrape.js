@@ -71,6 +71,6 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
     }
 
     fs.mkdirSync( path.resolve( __dirname, '../data' ) );
-    fs.writeFileSync( path.resolve( __dirname, '../data/fonts.json' ), JSON.stringify( result ) );
+    fs.writeFileSync( path.resolve( __dirname, '../data/fonts.json' ), JSON.stringify( result, null, 2 ) );
 
 } ) );
