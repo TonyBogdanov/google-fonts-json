@@ -41,7 +41,12 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
             const previews = await dispatcher.dispatch( 'preview/scrape' );
             for ( const font in previews ) {
 
-                if ( ! previews.hasOwnProperty( font ) ) {
+                if (
+
+                    ! previews.hasOwnProperty( font ) ||
+                    0 === previews[ font ].replace( /^[\s\\.]+/, '' ).replace( /^[\s\\.]$/, '' ).length
+
+                ) {
 
                     continue;
 
