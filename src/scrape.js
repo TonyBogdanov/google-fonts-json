@@ -1,16 +1,20 @@
 const path = require( 'path' );
 const fs = require( 'fs' );
+const fetch = require( 'node-fetch' );
 
 const dispatcher = require( './dispatcher' );
 
 describe( 'Scrape', () => it( 'Fonts', async () => {
 
-    await browser.setWindowSize( 1920, 1080 );
+    // Fetch current collection.
+    const result = await ( await fetch( 'https://tonybogdanov.github.io/google-fonts-json/fonts.json' ) ).json();
 
+    // Fetch fresh fonts.
+    await browser.setWindowSize( 1920, 1080 );
     await browser.url( `https://www.googleapis.com/webfonts/v1/webfonts?key=${ process.env.GFONTS_API_KEY }` );
     await dispatcher.sleep( 2000 );
 
-    const result = await browser.execute( () => JSON.parse( document.body.textContent ).items.reduce(
+    const fresh = await browser.execute( () => JSON.parse( document.body.textContent ).items.reduce(
 
         ( fonts, font ) => {
 
@@ -24,6 +28,33 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
     ) );
 
+    // Remove obsolete fonts.
+    for ( const family in result ) {
+
+        if ( ! result.hasOwnProperty( family ) || fresh.hasOwnProperty( family ) ) {
+
+            continue;
+
+        }
+
+        delete result[ family ];
+
+    }
+
+    // Add new fonts.
+    for ( const family in fresh ) {
+
+        if ( ! fresh.hasOwnProperty( family ) || result.hasOwnProperty( family ) ) {
+
+            continue;
+
+        }
+
+        result[ family ] = fresh[ family ];
+
+    }
+
+    // Update previews.
     await browser.url( 'https://fonts.google.com' );
     await dispatcher.sleep( 2000 );
 
@@ -75,7 +106,23 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
     }
 
-    fs.mkdirSync( path.resolve( __dirname, '../data' ) );
-    fs.writeFileSync( path.resolve( __dirname, '../data/fonts.json' ), JSON.stringify( result, null, 2 ) );
+    // Save results.
+    const dataPath = path.resolve( __dirname, '../data' );
+    const fontsPath = path.resolve( dataPath, 'fonts.json' );
+
+    if ( fs.existsSync( fontsPath ) ) {
+
+        fs.unlinkSync( fontsPath );
+
+    }
+
+    if ( fs.existsSync( dataPath ) ) {
+
+        fs.rmdirSync( dataPath );
+
+    }
+
+    fs.mkdirSync( dataPath );
+    fs.writeFileSync( fontsPath, JSON.stringify( result, null, 2 ) );
 
 } ) );
