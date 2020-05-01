@@ -8,7 +8,7 @@ module.exports = {
 
     },
 
-    dispatch( name ) {
+    dispatch( name, dump = true ) {
 
         return new Promise( async resolve => {
 
@@ -17,7 +17,7 @@ module.exports = {
             const operation = require( path.resolve( __dirname, `operation/${ name }.js` ) );
             const result = await operation( this );
 
-            console.log( 'RESULT  ', name, result );
+            console.log( 'RESULT  ', name, dump ? result : '[HIDDEN]' );
             resolve( result );
 
         } );

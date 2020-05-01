@@ -10,11 +10,8 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
     const result = await ( await fetch( 'https://tonybogdanov.github.io/google-fonts-json/fonts.json' ) ).json();
 
     // Fetch fresh fonts.
-    await browser.setWindowSize( 1920, 1080 );
-    await browser.url( `https://www.googleapis.com/webfonts/v1/webfonts?key=${ process.env.GFONTS_API_KEY }` );
-    await dispatcher.sleep( 2000 );
-
-    const fresh = await browser.execute( () => JSON.parse( document.body.textContent ).items.reduce(
+    const fresh = ( await ( await fetch( 'https://www.googleapis.com/webfonts/v1/webfonts?key=' +
+        process.env.GFONTS_API_KEY ) ).json() ).items.reduce(
 
         ( fonts, font ) => {
 
@@ -26,7 +23,7 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
         },
         {}
 
-    ) );
+    );
 
     // Remove obsolete fonts.
     for ( const family in result ) {
@@ -54,9 +51,12 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
     }
 
+    // Maximize window.
+    await browser.maximizeWindow();
+
     // Update previews.
     await browser.url( 'https://fonts.google.com' );
-    await dispatcher.sleep( 2000 );
+    await dispatcher.dispatch( 'loaded' );
 
     await dispatcher.dispatch( 'language/items/first/remove' );
 
@@ -69,15 +69,10 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
         while ( 0 < await dispatcher.dispatch( 'scroll/distance-to-bottom' ) ) {
 
-            const previews = await dispatcher.dispatch( 'preview/scrape' );
+            const previews = await dispatcher.dispatch( 'preview/scrape', false );
             for ( const font in previews ) {
 
-                if (
-
-                    ! previews.hasOwnProperty( font ) ||
-                    0 === previews[ font ].replace( /^[\s\\.]+/, '' ).replace( /^[\s\\.]$/, '' ).length
-
-                ) {
+                if ( ! previews.hasOwnProperty( font ) ) {
 
                     continue;
 
@@ -103,6 +98,19 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
         await dispatcher.dispatch( 'language/items/first/remove' );
         await dispatcher.dispatch( 'scroll/through/top' );
+
+    }
+
+    // Sort previews.
+    for ( const family in result ) {
+
+        if ( ! result.hasOwnProperty( family ) ) {
+
+            continue;
+
+        }
+
+        result[ family ].preview.sort();
 
     }
 
