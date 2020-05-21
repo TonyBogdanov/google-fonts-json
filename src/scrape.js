@@ -6,6 +6,12 @@ const dispatcher = require( './dispatcher' );
 
 describe( 'Scrape', () => it( 'Fonts', async () => {
 
+    if ( ! process.env.GFONTS_API_KEY ) {
+
+        throw `Missing required environment variable "GFONTS_API_KEY".`;
+
+    }
+
     // Fetch current collection.
     const result = await ( await fetch( 'https://tonybogdanov.github.io/google-fonts-json/fonts.json' ) ).json();
 
@@ -58,13 +64,25 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
     await browser.url( 'https://fonts.google.com' );
     await dispatcher.dispatch( 'loaded' );
 
-    await dispatcher.dispatch( 'language/items/first/remove' );
-
-    while ( 0 < await dispatcher.dispatch( 'language/items/count' ) ) {
+    let offset = 0;
+    while ( true ) {
 
         await dispatcher.dispatch( 'language/selector/click' );
-        await dispatcher.dispatch( 'language/items/first/click' );
 
+        offset++;
+        for ( let i = 0; i < offset; i++ ) {
+
+            await dispatcher.dispatch( 'language/items/first/remove' );
+
+        }
+
+        if ( 0 === await dispatcher.dispatch( 'language/items/count' ) ) {
+
+            break;
+
+        }
+
+        await dispatcher.dispatch( 'language/items/first/click' );
         await dispatcher.dispatch( 'body/click' );
 
         while ( 0 < await dispatcher.dispatch( 'scroll/distance-to-bottom' ) ) {
@@ -96,12 +114,11 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
         }
 
-        await dispatcher.dispatch( 'language/items/first/remove' );
         await dispatcher.dispatch( 'scroll/through/top' );
 
     }
 
-    // Sort previews.
+    // Sort & filter previews.
     for ( const family in result ) {
 
         if ( ! result.hasOwnProperty( family ) ) {
@@ -110,7 +127,8 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
 
         }
 
-        result[ family ].preview.sort();
+        result[ family ].preview = result[ family ].preview
+            .sort();
 
     }
 
