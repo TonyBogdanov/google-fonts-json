@@ -6,20 +6,13 @@ module.exports = () => new Promise( async resolve => resolve( await browser.exec
     for ( const preview of document.querySelectorAll( '.font-preview-fonts-module' ) ) {
 
         const title = trim( preview.querySelector( '.fonts-module-title' ).textContent );
-        if ( 8 >= title ) {
+        if ( 8 >= title.length ) {
 
             continue;
 
         }
 
-        const text = trim( preview.querySelector( '.font-preview-text' ).textContent );
-        if ( 8 >= text ) {
-
-            continue;
-
-        }
-
-        result[ title ] = text;
+        result[ title ] = preview.querySelector( '.font-preview-text' ).textContent;
 
     }
 
