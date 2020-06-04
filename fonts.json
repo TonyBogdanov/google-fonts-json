@@ -653,7 +653,13 @@
   },
   "Noto Sans TC": {
     "preview": [
-      "Almost before we knew it, we had left the ground"
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây",
+      "ταν απλ θμα χρνου",
+      "Алая вспышка осветила силуэт зазубренного крыла",
+      "Видовище перед нашими очима справд вражало",
+      "他所有的设备和仪器彷佛都是有生命的。",
+      "彼らの機器や装置はすべて生命体だ。"
     ],
     "kind": "webfonts#webfont",
     "files": {
@@ -5618,7 +5624,8 @@
   },
   "Titillium Web": {
     "preview": [
-      "Almost before we knew it, we had left the ground"
+      "Almost before we knew it, we had left the ground",
+      "Bu tri trong xanh thăm thm, không mt gn mây"
     ],
     "kind": "webfonts#webfont",
     "files": {
@@ -9179,7 +9186,8 @@
   },
   "Architects Daughter": {
     "preview": [
-      "Almost before we knew it, we had left the ground"
+      "Almost before we knew it, we had left the ground",
+      "Bu tri trong xanh thăm thm, không mt gn mây"
     ],
     "kind": "webfonts#webfont",
     "files": {
@@ -22259,6 +22267,7 @@
   "Noto Sans KR": {
     "preview": [
       "Almost before we knew it, we had left the ground",
+      "Bu tri trong xanh thm thm, khng mt gn my",
       "ខ្ញុំបានមើលព្យុះ ដែលមានភាពស្រស់ស្អាតណាស់ ប៉ុន្តែគួរឲ្យខ្លាច",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
@@ -22605,7 +22614,13 @@
   "Nanum Gothic": {
     "preview": [
       "Almost before we knew it, we had left the ground",
+      "Bu tri trong xanh thm thm, không mt gn mây",
+      "ταν απλ θμα χρνου",
+      "Алая вспышка осветила силуэт зазубренного крыла",
+      "Видовище перед нашими очима справд вражало",
       "ខ្ញុំបានមើលព្យុះ ដែលមានភាពស្រស់ស្អាតណាស់ ប៉ុន្តែគួរឲ្យខ្លាច",
+      "他所有的和器彷佛都是有生命的。",
+      "彼らの機器や置はすべて生命だ。",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
     "kind": "webfonts#webfont",
