@@ -3372,6 +3372,7 @@
   "Fira Sans Condensed": {
     "preview": [
       "Almost before we knew it, we had left the ground",
+      "Bu tri trong xanh thăm thm, không mt gn mây",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây",
       "Ήταν απλώς θέμα χρόνου",
       "Алая вспышка осветила силуэт зазубренного крыла",
@@ -19679,6 +19680,7 @@
   },
   "Nova Script": {
     "preview": [
+      "Almost before we knew it we had left the ground",
       "Almost before we knew it, we had left the ground"
     ],
     "kind": "webfonts#webfont",
