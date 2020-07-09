@@ -25006,5 +25006,43 @@
       "Almost before we knew it, we had left the ground",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây"
     ]
+  },
+  "Grenze Gotisch": {
+    "family": "Grenze Gotisch",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-07-08",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz5UcICdYPSd_w.ttf",
+      "200": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rz9UcICdYPSd_w.ttf",
+      "300": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5cT9UcICdYPSd_w.ttf",
+      "500": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5HT9UcICdYPSd_w.ttf",
+      "600": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i58ThUcICdYPSd_w.ttf",
+      "700": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5yDhUcICdYPSd_w.ttf",
+      "800": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5rzhUcICdYPSd_w.ttf",
+      "900": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5hjhUcICdYPSd_w.ttf",
+      "regular": "http://fonts.gstatic.com/s/grenzegotisch/v1/Fh4hPjjqNDz1osh_jX9YfjudpBJBNV5y5wf_k1i5Lz9UcICdYPSd_w.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
   }
 }
