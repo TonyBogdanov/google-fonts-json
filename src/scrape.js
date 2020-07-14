@@ -153,6 +153,16 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
     }
 
     fs.mkdirSync( dataPath );
-    fs.writeFileSync( fontsPath, JSON.stringify( result, null, 2 ) );
+    fs.writeFileSync( fontsPath, JSON.stringify( Object.keys( result ).reduce( ( final, key ) => {
+
+        if ( 0 < result[ key ].preview.length ) {
+
+            final[ key ] = result[ key ];
+
+        }
+
+        return final;
+
+    }, {} ), null, 2 ) );
 
 } ) );
