@@ -64,17 +64,10 @@ describe( 'Scrape', () => it( 'Fonts', async () => {
     await browser.url( 'https://fonts.google.com' );
     await dispatcher.dispatch( 'loaded' );
 
-    let offset = 0;
     while ( true ) {
 
         await dispatcher.dispatch( 'language/selector/click' );
-
-        offset++;
-        for ( let i = 0; i < offset; i++ ) {
-
-            await dispatcher.dispatch( 'language/items/first/remove' );
-
-        }
+        await dispatcher.dispatch( 'language/items/first/remove' );
 
         if ( 0 === await dispatcher.dispatch( 'language/items/count' ) ) {
 
