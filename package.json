@@ -19,7 +19,7 @@
   "homepage": "https://github.com/TonyBogdanov/google-fonts-json#readme",
   "dependencies": {
     "@wdio/cli": "^6.4.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@wdio/local-runner": "^6.4.0",
