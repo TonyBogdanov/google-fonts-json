@@ -25878,5 +25878,102 @@
     "preview": [
       "Almost before we knew it, we had left the ground"
     ]
+  },
+  "Piazzolla": {
+    "family": "Piazzolla",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "100italic",
+      "200italic",
+      "300italic",
+      "italic",
+      "500italic",
+      "600italic",
+      "700italic",
+      "800italic",
+      "900italic"
+    ],
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "greek-ext",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v2",
+    "lastModified": "2020-09-29",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYx3Ly1AHfAAy5.ttf",
+      "200": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYxnLy1AHfAAy5.ttf",
+      "300": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7KGxnLy1AHfAAy5.ttf",
+      "500": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LqxnLy1AHfAAy5.ttf",
+      "600": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7IGwXLy1AHfAAy5.ttf",
+      "700": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7I_wXLy1AHfAAy5.ttf",
+      "800": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JYwXLy1AHfAAy5.ttf",
+      "900": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7JxwXLy1AHfAAy5.ttf",
+      "regular": "http://fonts.gstatic.com/s/piazzolla/v2/N0b52SlTPu5rIkWIZjVKKtYtfxYqZ4RJBFzFfYUjkSDdlqZgy7LYxnLy1AHfAAy5.ttf",
+      "100italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqw3gX9BRy5m5M.ttf",
+      "200italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRqx3gX9BRy5m5M.ttf",
+      "300italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhcSx3gX9BRy5m5M.ttf",
+      "italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhZqx3gX9BRy5m5M.ttf",
+      "500italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhaix3gX9BRy5m5M.ttf",
+      "600italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhUS23gX9BRy5m5M.ttf",
+      "700italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhX223gX9BRy5m5M.ttf",
+      "800italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhRq23gX9BRy5m5M.ttf",
+      "900italic": "http://fonts.gstatic.com/s/piazzolla/v2/N0b72SlTPu5rIkWIZjVgI-TckS03oGpPETyEJ88Rbvi0_TzOzKcQhTO23gX9BRy5m5M.ttf"
+    },
+    "category": "serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây",
+      "Ήταν απλώς θέμα χρόνου",
+      "Алая вспышка осветила силуэт зазубренного крыла",
+      "Видовище перед нашими очима справді вражало"
+    ]
+  },
+  "Sansita Swashed": {
+    "family": "Sansita Swashed",
+    "variants": [
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-09-29",
+    "files": {
+      "300": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW-ppbToVehmEa4Q.ttf",
+      "500": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW4ZpbToVehmEa4Q.ttf",
+      "600": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW2pubToVehmEa4Q.ttf",
+      "700": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW1NubToVehmEa4Q.ttf",
+      "800": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWzRubToVehmEa4Q.ttf",
+      "900": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSWx1ubToVehmEa4Q.ttf",
+      "regular": "http://fonts.gstatic.com/s/sansitaswashed/v1/BXR8vFfZifTZgFlDDLgNkBydPKTt3pVCeYWqJnZSW7RpbToVehmEa4Q.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
   }
 }
