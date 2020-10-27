@@ -1,2 +1,2 @@
 module.exports = () => new Promise( async resolve => resolve( await browser.execute( () =>
-    document.querySelectorAll( '.toolbar-script-menu-content .toolbar-filter-item' ).length ) ) );
+    document.querySelectorAll( '.script-filter-menu .menu-item' ).length ) ) );
