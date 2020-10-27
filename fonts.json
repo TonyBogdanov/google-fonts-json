@@ -25975,5 +25975,125 @@
       "Almost before we knew it, we had left the ground",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây"
     ]
+  },
+  "Commissioner": {
+    "family": "Commissioner",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-10-08",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ni-IO9pOXuRoaY.ttf",
+      "200": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Fi_IO9pOXuRoaY.ttf",
+      "300": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ia_IO9pOXuRoaY.ttf",
+      "500": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Oq_IO9pOXuRoaY.ttf",
+      "600": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Aa4IO9pOXuRoaY.ttf",
+      "700": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5D-4IO9pOXuRoaY.ttf",
+      "800": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Fi4IO9pOXuRoaY.ttf",
+      "900": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5HG4IO9pOXuRoaY.ttf",
+      "regular": "http://fonts.gstatic.com/s/commissioner/v1/tDbe2o2WnlgI0FNDgduEk4jAhwgIy5k8SlfU5Ni_IO9pOXuRoaY.ttf"
+    },
+    "category": "sans-serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây",
+      "Алая вспышка осветила силуэт зазубренного крыла",
+      "Видовище перед нашими очима справді вражало",
+      "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।"
+    ]
+  },
+  "Syne Mono": {
+    "family": "Syne Mono",
+    "variants": [
+      "regular"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "version": "v1",
+    "lastModified": "2020-10-22",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/synemono/v1/K2FzfZNHj_FHBmRbFvHzIqCkDyvqZA.ttf"
+    },
+    "category": "monospace",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
+    ]
+  },
+  "Syne Tactile": {
+    "family": "Syne Tactile",
+    "variants": [
+      "regular"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "version": "v1",
+    "lastModified": "2020-10-22",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/synetactile/v1/11hGGpna2UTQKjMCVzjAPMKh3ysdjvKU8Q.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
+    ]
+  },
+  "Trispace": {
+    "family": "Trispace",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-10-22",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9qoQl0zHugpt0.ttf",
+      "200": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9roQl0zHugpt0.ttf",
+      "300": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbCFroQl0zHugpt0.ttf",
+      "500": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbE1roQl0zHugpt0.ttf",
+      "600": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbKFsoQl0zHugpt0.ttf",
+      "700": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbJhsoQl0zHugpt0.ttf",
+      "800": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbP9soQl0zHugpt0.ttf",
+      "regular": "http://fonts.gstatic.com/s/trispace/v1/Yq65-LKSQC3o56LxxgRrtA6yBqsrXL5GI5KI-IUZVGsxWFIlbH9roQl0zHugpt0.ttf"
+    },
+    "category": "sans-serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
   }
 }
