@@ -5,7 +5,7 @@ module.exports = () => new Promise( async resolve => resolve( await browser.exec
 
     for ( const preview of document.querySelectorAll( '.font-preview-fonts-module' ) ) {
 
-        const title = trim( preview.querySelector( '.fonts-module-title' ).textContent );
+        const title = trim( preview.querySelector( '.font-preview-headers h1' ).textContent );
         if ( 3 > title.length ) {
 
             continue;
