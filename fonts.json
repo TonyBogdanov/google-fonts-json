@@ -23807,6 +23807,7 @@
   "Libre Franklin": {
     "preview": [
       "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây",
       "Ήταν απλώς θέμα χρόνου"
     ],
     "kind": "webfonts#webfont",
@@ -26230,6 +26231,198 @@
       "regular": "http://fonts.gstatic.com/s/spacegrotesk/v1/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUUsjNsFjTDJK.ttf"
     },
     "category": "sans-serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Big Shoulders Inline Display": {
+    "family": "Big Shoulders Inline Display",
+    "variants": [
+      "100",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOlmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COrytjChoEoUCJg.ttf",
+      "300": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COnSPrAJGHowbP0g.ttf",
+      "500": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COiyOrAJGHowbP0g.ttf",
+      "600": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COgCJrAJGHowbP0g.ttf",
+      "700": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COmSIrAJGHowbP0g.ttf",
+      "800": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COniLrAJGHowbP0g.ttf",
+      "900": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LOkmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85COlyKrAJGHowbP0g.ttf",
+      "regular": "http://fonts.gstatic.com/s/bigshouldersinlinedisplay/v1/_LObmyfF4eSU_SCrJc9OI24U7siGvBGcZqmqV9-ZZ85CAtiniAptAoU.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Big Shoulders Inline Text": {
+    "family": "Big Shoulders Inline Text",
+    "variants": [
+      "100",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8idQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEU7wG3AwE9VRww.ttf",
+      "300": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYbSO1oeH9xI2gc.ttf",
+      "500": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEd7TO1oeH9xI2gc.ttf",
+      "600": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEfLUO1oeH9xI2gc.ttf",
+      "700": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEZbVO1oeH9xI2gc.ttf",
+      "800": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEYrWO1oeH9xI2gc.ttf",
+      "900": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8hdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NEa7XO1oeH9xI2gc.ttf",
+      "regular": "http://fonts.gstatic.com/s/bigshouldersinlinetext/v1/vm8kdQDmVECV5-vm5dJ-Tp-6WDeRjL4RV7dP8u-NKSr6H1I1A9U.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Big Shoulders Stencil Display": {
+    "family": "Big Shoulders Stencil Display",
+    "variants": [
+      "100",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeU4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvD00ncryljitbg.ttf",
+      "300": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvA88FcB5FTrrKG-.ttf",
+      "500": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvBk8VcB5FTrrKG-.ttf",
+      "600": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvBI9lcB5FTrrKG-.ttf",
+      "700": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAs91cB5FTrrKG-.ttf",
+      "800": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAw9FcB5FTrrKG-.ttf",
+      "900": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvAU9VcB5FTrrKG-.ttf",
+      "regular": "http://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeq4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPysiQ2HMJz0ji.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Big Shoulders Stencil Text": {
+    "family": "Big Shoulders Stencil Text",
+    "variants": [
+      "100",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUi9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYSZYGLxtPhi2eA.ttf",
+      "300": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRRQkLbmvRrwPmQ.ttf",
+      "500": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQJQ0LbmvRrwPmQ.ttf",
+      "600": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYQlRELbmvRrwPmQ.ttf",
+      "700": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRBRULbmvRrwPmQ.ttf",
+      "800": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYRdRkLbmvRrwPmQ.ttf",
+      "900": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUj9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcYR5R0LbmvRrwPmQ.ttf",
+      "regular": "http://fonts.gstatic.com/s/bigshouldersstenciltext/v1/5aUg9-i2oxDMNwY3dHfW7UAt3Q453SM15wNj53bCcbz9ambTsehi.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Goldman": {
+    "family": "Goldman",
+    "variants": [
+      "regular",
+      "700"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "700": "http://fonts.gstatic.com/s/goldman/v1/pe0rMIWbN4JFplR2FI5XIteQB9Zra1U.ttf",
+      "regular": "http://fonts.gstatic.com/s/goldman/v1/pe0uMIWbN4JFplR2LDJ4Bt-7G98.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Xanh Mono": {
+    "family": "Xanh Mono",
+    "variants": [
+      "regular",
+      "italic"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-06",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/xanhmono/v1/R70YjykVmvKCep-vWhSYmACQXzLhTg.ttf",
+      "italic": "http://fonts.gstatic.com/s/xanhmono/v1/R70ejykVmvKCep-vWhSomgqUfTfxTo24.ttf"
+    },
+    "category": "monospace",
     "kind": "webfonts#webfont",
     "preview": [
       "Almost before we knew it, we had left the ground",
