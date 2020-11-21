@@ -12414,6 +12414,7 @@
   },
   "Lexend Tera": {
     "preview": [
+      "Almost before we knew it we had left the ground",
       "Almost before we knew it, we had left the ground",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây",
       "การเดินทางขากลับคงจะเหงา",
@@ -15165,7 +15166,8 @@
     "preview": [
       "Almost before we knew it, we had left the ground",
       "Ήταν απλώς θέμα χρόνου",
-      "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।"
+      "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।",
+      "ខ្ញុំបានមើលព្យុះ ដែលមានភាពស្រស់ស្អាតណាស់ ប៉ុន្តែគួរឲ្យខ្លាច"
     ],
     "kind": "webfonts#webfont",
     "files": {
@@ -19039,6 +19041,7 @@
   },
   "Preahvihear": {
     "preview": [
+      "Almost before we knew it, we had left the ground",
       "ಇದು ಕೇವಲ ಸಮಯದ ಪ್ರಶ್ನೆಯಾಗಿದೆ",
       "ខ្ញុំបានមើលព្យុះ ដែលមានភាពស្រស់ស្អាតណាស់ ប៉ុន្តែគួរឲ្យខ្លាច"
     ],
@@ -27079,6 +27082,103 @@
       "Almost before we knew it, we had left the ground",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây",
       "그들의 장비와 기구는 모두 살아 있다"
+    ]
+  },
+  "Castoro": {
+    "family": "Castoro",
+    "variants": [
+      "regular",
+      "italic"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-20",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/castoro/v1/1q2GY5yMCld3-O4cHYhEzOYenEU.ttf",
+      "italic": "http://fonts.gstatic.com/s/castoro/v1/1q2EY5yMCld3-O4cLYpOyMQbjEX5fw.ttf"
+    },
+    "category": "serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
+    ]
+  },
+  "Nerko One": {
+    "family": "Nerko One",
+    "variants": [
+      "regular"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-20",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/nerkoone/v1/m8JQjfZSc7OXlB3ZMOjzcJ5BZmqa3A.ttf"
+    },
+    "category": "handwriting",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
+    ]
+  },
+  "Texturina": {
+    "family": "Texturina",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900",
+      "100italic",
+      "200italic",
+      "300italic",
+      "italic",
+      "500italic",
+      "600italic",
+      "700italic",
+      "800italic",
+      "900italic"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v2",
+    "lastModified": "2020-11-20",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2eYG_Ug25riW1OD.ttf",
+      "200": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2cYGvUg25riW1OD.ttf",
+      "300": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2fGGvUg25riW1OD.ttf",
+      "500": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2eqGvUg25riW1OD.ttf",
+      "600": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2dGHfUg25riW1OD.ttf",
+      "700": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2d_HfUg25riW1OD.ttf",
+      "800": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2cYHfUg25riW1OD.ttf",
+      "900": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2cxHfUg25riW1OD.ttf",
+      "regular": "http://fonts.gstatic.com/s/texturina/v2/c4mM1nxpEtL3pXiAulRTkY-HGmNEX1b9NspjMwhAgliHhVrXy2eYGvUg25riW1OD.ttf",
+      "100italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWR1i0Z7AXkODN94.ttf",
+      "200italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWZ1j0Z7AXkODN94.ttf",
+      "300italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWUNj0Z7AXkODN94.ttf",
+      "italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWR1j0Z7AXkODN94.ttf",
+      "500italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWS9j0Z7AXkODN94.ttf",
+      "600italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWcNk0Z7AXkODN94.ttf",
+      "700italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWfpk0Z7AXkODN94.ttf",
+      "800italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWZ1k0Z7AXkODN94.ttf",
+      "900italic": "http://fonts.gstatic.com/s/texturina/v2/c4mO1nxpEtL3pXiAulR5mL129FhZmLj7I4oiSUJyfYDu7sB5zHJQWbRk0Z7AXkODN94.ttf"
+    },
+    "category": "serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
     ]
   }
 }
