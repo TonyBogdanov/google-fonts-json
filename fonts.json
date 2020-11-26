@@ -25957,6 +25957,7 @@
   },
   "Clicker Script": {
     "preview": [
+      "Almost before we knew it we had left the ground",
       "Almost before we knew it, we had left the ground",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
@@ -27185,6 +27186,25 @@
     "preview": [
       "Almost before we knew it, we had left the ground",
       "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Libre Barcode EAN13 Text": {
+    "family": "Libre Barcode EAN13 Text",
+    "variants": [
+      "regular"
+    ],
+    "subsets": [
+      "latin"
+    ],
+    "version": "v1",
+    "lastModified": "2020-11-03",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/librebarcodeean13text/v1/wlpigxXFDU1_oCu9nfZytgIqSG0XRcJm_OQiB96PAGEki52WfA.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
     ]
   }
 }
