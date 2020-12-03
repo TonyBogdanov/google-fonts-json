@@ -2438,6 +2438,7 @@
       "Видовище перед нашими очима справді вражало",
       "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।",
       "การเดินทางขากลับคงจะเหงา",
+      "他們所有的設備和儀器彷都是有生命的。",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
     "kind": "webfonts#webfont",
@@ -3622,7 +3623,8 @@
       "Видовище перед нашими очима справді вражало",
       "الحب سماء لا تمطر غير الأحلام",
       "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।",
-      "การเดินทางขากลับคงจะเหงา"
+      "การเดินทางขากลับคงจะเหงา",
+      "他們所有的設備和儀器彷彿都是有生命的。"
     ],
     "kind": "webfonts#webfont",
     "files": {
@@ -6117,6 +6119,7 @@
       "การเดินทางขากลับคงจะเหงา",
       "သူတို့ရဲ့ စက်ပစ္စည်းတွေ၊ ကိရိယာတွေ အားလုံး အသက်ရှင်ကြတယ်။",
       "他們所有的設備和儀器彷都是有生命的。",
+      "他所有的和器彷都是有生命的。",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
     "kind": "webfonts#webfont",
@@ -6919,6 +6922,7 @@
       "Видовище перед нашими очима справді вражало",
       "การเดินทางขากลับคงจะเหงา",
       "他们所有的设备和仪器彷佛都是有生命的。",
+      "他所有的和器彷都是有生命的。",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
     "kind": "webfonts#webfont",
@@ -24388,6 +24392,7 @@
       "Видовище перед нашими очима справді вражало",
       "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।",
       "การเดินทางขากลับคงจะเหงา",
+      "他們所有的設備和儀器彷彿都是有生命的。",
       "他所有的和器彷都是有生命的。",
       "그들의 장비와 기구는 모두 살아 있다"
     ],
@@ -27225,6 +27230,65 @@
     "kind": "webfonts#webfont",
     "preview": [
       "Almost before we knew it, we had left the ground"
+    ]
+  },
+  "JetBrains Mono": {
+    "family": "JetBrains Mono",
+    "variants": [
+      "100",
+      "200",
+      "300",
+      "regular",
+      "500",
+      "600",
+      "700",
+      "800",
+      "100italic",
+      "200italic",
+      "300italic",
+      "italic",
+      "500italic",
+      "600italic",
+      "700italic",
+      "800italic"
+    ],
+    "subsets": [
+      "cyrillic",
+      "cyrillic-ext",
+      "greek",
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-12-02",
+    "files": {
+      "100": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yK1jPVmUsaaDhw.ttf",
+      "200": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8SKxjPVmUsaaDhw.ttf",
+      "300": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxjPVmUsaaDhw.ttf",
+      "500": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPVmUsaaDhw.ttf",
+      "600": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8FqtjPVmUsaaDhw.ttf",
+      "700": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8L6tjPVmUsaaDhw.ttf",
+      "800": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8SKtjPVmUsaaDhw.ttf",
+      "regular": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPVmUsaaDhw.ttf",
+      "100italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO-Lf1OQk6OThxPA.ttf",
+      "200italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO8LflOQk6OThxPA.ttf",
+      "300italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO_VflOQk6OThxPA.ttf",
+      "italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO-LflOQk6OThxPA.ttf",
+      "500italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO-5flOQk6OThxPA.ttf",
+      "600italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO9VeVOQk6OThxPA.ttf",
+      "700italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO9seVOQk6OThxPA.ttf",
+      "800italic": "http://fonts.gstatic.com/s/jetbrainsmono/v1/tDba2o-flEEny0FZhsfKu5WU4xD-IQ-PuZJJXxfpAO8LeVOQk6OThxPA.ttf"
+    },
+    "category": "monospace",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây",
+      "Ήταν απλώς θέμα χρόνου",
+      "Алая вспышка осветила силуэт зазубренного крыла",
+      "Видовище перед нашими очима справді вражало",
+      "他們所有的設備和儀器彷彿都是有生命的。"
     ]
   }
 }
