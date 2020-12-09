@@ -27301,5 +27301,54 @@
       "अंतरिक्ष यान से दूर नीचे पृथ्वी शानदार ढंग से जगमगा रही थी ।",
       "他們所有的設備和儀器彷彿都是有生命的。"
     ]
+  },
+  "Andika New Basic": {
+    "family": "Andika New Basic",
+    "variants": [
+      "regular",
+      "italic",
+      "700",
+      "700italic"
+    ],
+    "subsets": [
+      "latin",
+      "latin-ext",
+      "vietnamese"
+    ],
+    "version": "v1",
+    "lastModified": "2020-12-08",
+    "files": {
+      "700": "http://fonts.gstatic.com/s/andikanewbasic/v1/taiWGn9tCp-44eleq5Q-mszJivxScBO7NGqoGzdME84.ttf",
+      "regular": "http://fonts.gstatic.com/s/andikanewbasic/v1/taiRGn9tCp-44eleq5Q-mszJivxSSK-UEGKDBz4.ttf",
+      "italic": "http://fonts.gstatic.com/s/andikanewbasic/v1/taiXGn9tCp-44eleq5Q-mszJivxSeK2eFECGFz5VCg.ttf",
+      "700italic": "http://fonts.gstatic.com/s/andikanewbasic/v1/taiUGn9tCp-44eleq5Q-mszJivxSeK2mqG-iHxVJA85Okw.ttf"
+    },
+    "category": "sans-serif",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground",
+      "Bầu trời trong xanh thăm thẳm, không một gợn mây"
+    ]
+  },
+  "Langar": {
+    "family": "Langar",
+    "variants": [
+      "regular"
+    ],
+    "subsets": [
+      "gurmukhi",
+      "latin",
+      "latin-ext"
+    ],
+    "version": "v11",
+    "lastModified": "2020-12-08",
+    "files": {
+      "regular": "http://fonts.gstatic.com/s/langar/v11/kJEyBukW7AIlgjGVrTVZ99sqrQ.ttf"
+    },
+    "category": "display",
+    "kind": "webfonts#webfont",
+    "preview": [
+      "Almost before we knew it, we had left the ground"
+    ]
   }
 }
